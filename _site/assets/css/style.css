@@ -383,14 +383,21 @@ nav a:hover{
     WIDE: Main
    ============ */
 
-	#main article{
-		float:left;
-		width:57%;
+  .container {
+    width: 960px;
+  }
+
+	#content{
+		float: left;
+		width: 580px;
+    margin: 0 10px;
+    padding-right: 60px;
 	}
 		
-	#main aside{
+	#sidebar{
 		float:right;
-		width:28%;
+		width: 280px;
+    margin: 0 10px;
 	}
 }
 
