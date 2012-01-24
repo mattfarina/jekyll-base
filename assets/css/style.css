@@ -389,14 +389,14 @@ nav a:hover{
 
 	#content{
 		float: left;
-		width: 580px;
+		width: 520px;
     margin: 0 10px;
     padding-right: 60px;
 	}
 		
 	#sidebar{
 		float:right;
-		width: 280px;
+		width: 340px;
     margin: 0 10px;
 	}
 }
@@ -408,7 +408,7 @@ nav a:hover{
    =============== */
 
 	.wrapper{
-		width:1026px; /* 1140px - 10% for margins */
+		width:960px; /* 1140px - 10% for margins */
 		margin:0 auto;
 	}
 }
