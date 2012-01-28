@@ -1,6 +1,9 @@
 markdown: rdiscount
-title: Innovating Tomorrow
+title: Demo Title
 start_year: 2007
+permalink: blog/:title
+pygments: true
+exclude: Makefile
 
 navigation:
 - text: Home
@@ -8,5 +11,5 @@ navigation:
 - text: About
   url: /about/
 - text: Blog
-  url: /blog/
-  layout: post
+  url: /blog/index.html
+  layout: article

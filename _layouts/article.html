@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<article id="content">
+
+  <header>
+    <h1>{{ page.title }}</h1>
+  </header>
+
+  {{ content }}
+    
+    {% for foo in page.tags %}
+      {{ foo }}
+    {% endfor %}
+  <footer class="meta">
+    <p>––<br>
+    Posted in: {{ page.tags | tag_links }}<br>
+    <time datetime="{{ page.date | datetime | date_to_xmlschema }}" pubdate>Posted on: <a href="/{{ page.url }}">{{ page.date | date: "%B %d, %Y" }}</a></time>
+    </p>
+  </footer>
+
+</article>
+
+<div id="sidebar">
+  {% include sidebar.html %}
+</div>
