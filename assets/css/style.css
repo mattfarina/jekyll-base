@@ -209,6 +209,11 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: Georgia, "Times New Roman", "DejaVu Serif", serif;
+  margin-bottom: 5px;
+}
+
+p {
+  margin-top: 0;
 }
 
 .box {
@@ -221,8 +226,12 @@ h1, h2, h3, h4, h5, h6 {
   border: 1px solid rgba(0, 0, 0, .6);
   color: #fff;
   /* The 1px below is a total hack. */
-  padding: 10px 20px;
+  padding: 10px 20px 0;
   text-shadow: #000 0 1px 1px;
+}
+
+.box h1,.box h2,.box h3,.box h4,.box h5,.box h6 {
+  margin-top: 10px;
 }
 
 #header-container {

@@ -12,5 +12,8 @@ minify:
 	@@java -jar _build/htmlcompressor.jar --type html -o _site _site
 
 build: render minify
+	# Add an rsync command to put the _site directory on the production server
 
-.PHONY: server render build minify
+deploy: build
+
+.PHONY: server render build minify deploy
