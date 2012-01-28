@@ -1,0 +1,6 @@
+---
+layout: nil
+permalink: .htaccess
+---
+ErrorDocument 404 /404.html
+Options +Multiviews
