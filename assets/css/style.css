@@ -378,37 +378,6 @@ p {
 .il { color: #3677a9 } /* Literal.Number.Integer.Long */
 /* End Syntax Hignlighting styles /*
 
-/* Flexislider customizations */
-.flexslider-container {
-  position: relative;
-  margin-bottom: 40px;
-}
-
-.flex-direction-nav li a {
-  background-image: url(../images/bg_direction_nav.png);
-}
-
-.flex-control-nav li a {
-  background-image: url(../images/bg_control_nav.png);
-}
-
-.flex-caption {
-  background: #000;
-  background: rgba(0, 0, 0, .8);
-}
-
-.flex-caption a {
-  color: #27d252;
-  text-decoration: none;
-}
-.flex-caption a:hover {
-  text-decoration: underline;
-}
-
-.flex-direction-nav {
-  display: none;
-}
-
 /* ===================================================
     Initializr styles
     http://verekia.com/initializr/responsive-template
